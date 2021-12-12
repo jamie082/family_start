@@ -32,7 +32,15 @@ def susan_function():
             print(string)
 
 def jamie_function():
-    print("Jamie function")
+
+    elements = []
+
+    for i in range(0, 6):
+        print(f"Adding {i} to the list.")
+        elements.append(i)
+
+    for i in elements:
+        print(f"Element was: {i}")
 
 def dead(why):
     print(why, "Try Again!")
